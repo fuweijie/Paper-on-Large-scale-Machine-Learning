@@ -1,7 +1,7 @@
 # Paper-on-Large-scale-Machine-Learning (LML)
-This page is organized based on our paper：
+This page is organized based on the following paper, and please refer the paper for more details.
 #### A Survey on Large-Scale Machine Learning, [[Arxiv]](https://arxiv.org/abs/2008.03911), [[IEEE TKDE]](https://ieeexplore.ieee.org/document/9165233).
-Please refer the paper for more details. If you find any representative papers are missing or need further discussion, please feel free to contact us with fwj.edu@gmail.com
+If you find any representative papers are missing or need further discussion, please feel free to contact us with fwj.edu@gmail.com
 
 #### We review LML according to three computational perspectives:
 Model Simplification, which reduces Computational Complexities by simplifying predictive models; 
