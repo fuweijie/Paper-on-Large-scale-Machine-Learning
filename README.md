@@ -180,47 +180,48 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 #### For Multi-machine Clusters
 - Mapreduce: simplified data processing on large clusters
   - J. Dean and S. Ghemawat, Communications of the ACM, vol. 51, no. 1, pp. 107–113, 2008.
-
-J. Rosen, N. Polyzotis, V. Borkar, Y. Bu, M. J. Carey, M. Weimer, T. Condie, and R. Ramakrishnan, “Iterative mapreduce for large scale machine learning,” arXiv preprint arXiv:1303.3517, 2013.
-
-M. Boehm, S. Tatikonda, B. Reinwald, P. Sen, Y. Tian, D. R. Burdick, and S. Vaithyanathan, “Hybrid parallelization strategies for large-scale machine learning in systemml,” Proceedings of VLDB, vol. 7, no. 7, pp. 553–564, 2014.
-
-M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, “Spark: cluster computing with working sets,” in Proceedings of Hot Topics in Cloud Computing, 2010, pp. 10–10.
-
-X. Meng, J. K. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. B. Tsai, M. Amde, S. Owen et al., “Mllib: machine learning in apache spark,” JMLR, vol. 17, no. 34, pp. 1–7, 2016.
-
-G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, and G. Czajkowski, “Pregel: a system for large-scale graph processing,” in Proceedings of SIGMOD, 2010, pp. 135–146.
-
-Y. Low, D. Bickson, J. E. Gonzalez, C. Guestrin, A. Kyrola, and J. M. Hellerstein, “Distributed graphlab: a framework for machine learning and data mining in the cloud,” in Proceedings of VLDB, vol. 5, no. 8, 2012, pp. 716–727.
-
-J. E. Gonzalez, Y. Low, H. Gu, D. Bickson, and C. Guestrin, “Powergraph: distributed graph-parallel computation on natural graphs.” in Proceedings of OSDI, vol. 12, no. 1, 2012, p. 2.
-
-R. Chen, J. Shi, Y. Chen, B. Zang, H. Guan, and H. Chen, “Powerlyra: Differentiated graph computation and partitioning on skewed graphs,” ACM Transactions on Parallel Computing (TOPC), vol. 5, no. 3, pp. 1–39, 2019.
-
-J. Dean, G. Corrado, R. Monga, K. Chen, M. Devin, M. Mao, A. Senior, P. Tucker, K. Yang, Q. V. Le et al., “Large scale distributed deep networks,” in Proceedings of NeurIPS, 2012, pp. 1223–1231.
-
-M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J. Long, E. J. Shekita, and B.-Y. Su, “Scaling distributed machine learning with the parameter server,” in Proceedings of OSDI, vol. 14, 2014, pp. 583–598.
-
-T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, “Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems,” arXiv preprint arXiv:1512.01274, 2015.
-
-J. Jiang, B. Cui, C. Zhang, and F. Fu, “Dimboost: Boosting gradient boosting decision tree to higher dimensions,” in Proceedings of ICDM, 2018, pp. 1363–1376.
-
-E. P. Xing, Q. Ho, W. Dai, J. K. Kim, J. Wei, S. Lee, X. Zheng, P. Xie, A. Kumar, and Y. Yu, “Petuum: A new platform for distributed machine learning on big data,” IEEE TBD, vol. 1, no. 2, pp. 49–67, 2015.
-
-T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
-
-G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.Y. Liu, “Lightgbm: A highly efficient gradient boosting decision tree,” in Proceedings of NeurIPS, 2017, pp. 3146–3154.
-
-P. Patarasuk and X. Yuan, “Bandwidth optimal all-reduce algorithms for clusters of workstations,” Elsevier JPDC, vol. 69, no. 2, pp. 117–124, 2009.
-
-A. Sergeev and M. Del Balso, “Horovod: fast and easy distributed deep learning in tensorflow,” arXiv preprint arXiv:1802.05799, 2018.
-
-P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, “Accurate, large minibatch sgd: Training imagenet in 1 hour,” arXiv preprint arXiv:1706.02677, 2017.
-
+- Iterative mapreduce for large scale machine learning
+  - J. Rosen, N. Polyzotis, V. Borkar, Y. Bu, M. J. Carey, M. Weimer, T. Condie, and R. Ramakrishnan, arXiv preprint arXiv:1303.3517, 2013.
+- Hybrid parallelization strategies for large-scale machine learning in systemml
+  - M. Boehm, S. Tatikonda, B. Reinwald, P. Sen, Y. Tian, D. R. Burdick, and S. Vaithyanathan, VLDB, vol. 7, no. 7, pp. 553–564, 2014.
+- Spark: cluster computing with working sets
+  - M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, in Proceedings of Hot Topics in Cloud Computing, 2010, pp. 10–10.
+- Mllib: machine learning in apache spark
+  - X. Meng, J. K. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. B. Tsai, M. Amde, S. Owen et al., JMLR, vol. 17, no. 34, pp. 1–7, 2016.
+- Pregel: a system for large-scale graph processing
+  - G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, and G. Czajkowski, SIGMOD, 2010, pp. 135–146.
+- Distributed graphlab: a framework for machine learning and data mining in the cloud
+  - Y. Low, D. Bickson, J. E. Gonzalez, C. Guestrin, A. Kyrola, and J. M. Hellerstein, VLDB, vol. 5, no. 8, 2012, pp. 716–727.
+- Powergraph: distributed graph-parallel computation on natural graphs
+  - J. E. Gonzalez, Y. Low, H. Gu, D. Bickson, and C. Guestrin, OSDI, vol. 12, no. 1, 2012, p. 2.
+- Powerlyra: Differentiated graph computation and partitioning on skewed graphs
+  - R. Chen, J. Shi, Y. Chen, B. Zang, H. Guan, and H. Chen, ACM TOPC, vol. 5, no. 3, pp. 1–39, 2019.
+- Large scale distributed deep networks
+  - J. Dean, G. Corrado, R. Monga, K. Chen, M. Devin, M. Mao, A. Senior, P. Tucker, K. Yang, Q. V. Le et al., NeurIPS, 2012, pp. 1223–1231.
+- Scaling distributed machine learning with the parameter server
+  - M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J. Long, E. J. Shekita, and B.-Y. Su, OSDI, vol. 14, 2014, pp. 583–598.
+- Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems
+  - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, arXiv preprint arXiv:1512.01274, 2015.
+- Dimboost: Boosting gradient boosting decision tree to higher dimension
+  - J. Jiang, B. Cui, C. Zhang, and F. Fu, ICDM, 2018, pp. 1363–1376.
+- Petuum: A new platform for distributed machine learning on big data
+  - E. P. Xing, Q. Ho, W. Dai, J. K. Kim, J. Wei, S. Lee, X. Zheng, P. Xie, A. Kumar, and Y. Yu, IEEE TBD, vol. 1, no. 2, pp. 49–67, 2015.
+- Xgboost: A scalable tree boosting system
+  - T. Chen and C. Guestrin, SIGKDD, 2016, pp. 785–794.
+- Lightgbm: A highly efficient gradient boosting decision tree
+  - G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.Y. Liu, NeurIPS, 2017, pp. 3146–3154.
+- Bandwidth optimal all-reduce algorithms for clusters of workstations
+  - P. Patarasuk and X. Yuan, Elsevier JPDC, vol. 69, no. 2, pp. 117–124, 2009.
+- Horovod: fast and easy distributed deep learning in tensorflow
+  - A. Sergeev and M. Del Balso, arXiv preprint arXiv:1802.05799, 2018.
+- Accurate, large minibatch sgd: Training imagenet in 1 hour
+  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, arXiv preprint arXiv:1706.02677, 2017.
+  
 ### Hybrid Collaboration.
-F. Seide, H. Fu, J. Droppo, G. Li, and D. Yu, “1-bit stochastic gradient descent and its application to data-parallel distributed training of speech dnns,” in Proceedings of INTERSPEECH, 2014.
-
-D. Alistarh, D. Grubic, J. Li, R. Tomioka, and M. Vojnovic, “Qsgd: Communication-efficient sgd via gradient quantization and encoding,” in Proceedings of NeurIPS, 2017, pp. 1709–1720.
+- 1-bit stochastic gradient descent and its application to data-parallel distributed training of speech dnns
+  - F. Seide, H. Fu, J. Droppo, G. Li, and D. Yu, INTERSPEECH, 2014.
+- Qsgd: Communication-efficient sgd via gradient quantization and encoding
+  - D. Alistarh, D. Grubic, J. Li, R. Tomioka, and M. Vojnovic, NeurIPS, 2017, pp. 1709–1720.
 
 W. Wen, C. Xu, F. Yan, C. Wu, Y. Wang, Y. Chen, and H. Li, “Terngrad: Ternary gradients to reduce communication in distributed deep learning,” in Proceedings of NeurIPS, 2017, pp. 1509–1519.
 
