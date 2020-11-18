@@ -11,10 +11,10 @@ S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, “A survey of op
 S. Sun, Z. Cao, H. Zhu, and J. Zhao, “A survey of optimization methods from a machine learning perspective,” IEEE Trans on Cybernetics, 2019.
 
 
-#### We present a comprehensive overview of LML according to three computational perspectives:
-1) model simplification, which reduces computational complexities by simplifying predictive models; 
-2) optimization approximation, which enhances computational efficiency by designing better optimization algorithms; 
-3) computation parallelism, which improves computational capabilities by scheduling multiple computing devices.
+#### We review LML according to three computational perspectives:
+#### model simplification, which reduces computational complexities by simplifying predictive models; 
+#### optimization approximation, which enhances computational efficiency by designing better optimization algorithms; 
+#### computation parallelism, which improves computational capabilities by scheduling multiple computing devices.
 ### Model Simplification.
 #### Kernel-based Models
 S. Kumar, M. Mohri, and A. Talwalkar, “Sampling methods for the nystrom method,” JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
