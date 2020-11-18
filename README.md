@@ -10,7 +10,7 @@ Optimization Approximation, which enhances Computational Efficiency by designing
 
 Computation Parallelism, which improves Computational Capabilities by scheduling multiple computing devices.
 
-<img src="https://github.com/fuweijie/Paper-on-Large-scale-Machine-Learning/blob/main/Framework.png" alt="drawing" width="1200px" style="display: block; margin-left: auto; margin-right: auto"/>
+<img src="https://github.com/fuweijie/Paper-on-Large-scale-Machine-Learning/blob/main/Framework.png" alt="drawing" width="1000px" style="display: block; margin-left: auto; margin-right: auto"/>
 
 #### Related Surveys
 - Efficient machine learning for big data: A review, 
