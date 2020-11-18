@@ -198,7 +198,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Large scale distributed deep networks
   - J. Dean, G. Corrado, R. Monga, K. Chen, M. Devin, M. Mao, A. Senior, P. Tucker, K. Yang, Q. V. Le et al., NeurIPS, 2012, pp. 1223–1231.
 - Scaling distributed machine learning with the parameter server
-  - M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, J. Long, E. J. Shekita, and B.-Y. Su, OSDI, vol. 14, 2014, pp. 583–598.
+  - M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, et al., vol. 14, 2014, pp. 583–598.
 - Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems
   - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, arXiv preprint arXiv:1512.01274, 2015.
 - Dimboost: Boosting gradient boosting decision tree to higher dimension
