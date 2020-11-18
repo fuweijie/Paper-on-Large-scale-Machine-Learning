@@ -6,7 +6,7 @@ Optimization Approximation, which enhances Computational Efficiency by designing
 
 Computation Parallelism, which improves Computational Capabilities by scheduling multiple computing devices.
 
-This page is organized based on our following paper：A Survey on Large-Scale Machine Learning．Please refer the paper for more details.
+This page is organized based on our following paper：A Survey on Large-Scale Machine Learning (TKDE, 2020)．Please refer the paper for more details.
 
 #### Related Surveys
 O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
