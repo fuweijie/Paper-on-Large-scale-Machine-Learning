@@ -1,12 +1,12 @@
 # Paper-on-Large-scale-Machine-Learning
+This page is organized based on our paper：A Survey on Large-Scale Machine Learning, IEEE TKDE, 2020．Please refer the paper for more details. If you need further discussion, please feel free to contact us with fwj.edu@gmail.com
+
 #### We review LML according to three computational perspectives:
 Model Simplification, which reduces Computational Complexities by simplifying predictive models; 
 
 Optimization Approximation, which enhances Computational Efficiency by designing better optimization algorithms; 
 
 Computation Parallelism, which improves Computational Capabilities by scheduling multiple computing devices.
-
-This page is organized based on our following paper：A Survey on Large-Scale Machine Learning (TKDE, 2020)．Please refer the paper for more details.
 
 #### Related Surveys
 O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
