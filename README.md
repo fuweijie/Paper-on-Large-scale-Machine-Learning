@@ -59,11 +59,11 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
   - M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
 #### Deep Models
 - Mobilenets: Efficient convolutional neural networks for mobile vision applications
-  - A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, arXiv preprint arXiv:1704.04861, 2017.
+  - A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, et al., arXiv preprint arXiv:1704.04861, 2017.
 - Rigid-motion scattering for image classification
   - L. Sifre and S. Mallat, Ph. D. thesis, 2014. 
 - Going deeper with convolutions
-  - C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, CVPR, 2015, pp. 1–9.
+  - C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, et al., CVPR, 2015, pp. 1–9.
 - Shufflenet: An extremely efficient convolutional neural network for mobile devices
   - X. Zhang, X. Zhou, M. Lin, and J. Sun, CVPR, 2018, pp. 6848–6856.
 - Rethinking the inception architecture for computer vision
@@ -93,7 +93,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Variance reduction in sgd by distributed importance samplin
   - G. Alain, A. Lamb, C. Sankar, A. Courville, and Y. Bengio, arXiv preprint arXiv:1511.06481, 2015.
 - Accurate, large minibatch sgd: Training imagenet in 1 hour
-  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, arXiv preprint arXiv:1706.02677, 2017.
+  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, et al., arXiv preprint arXiv:1706.02677, 2017.
 - Accelerating stochastic gradient descent using predictive variance reduction
   - R. Johnson and T. Zhang, NeurIPS, 2013, pp. 315–323.
 - Gradient methods for minimizing composite functions
@@ -137,7 +137,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Accelerated proximal gradient methods for nonconvex programming
   - H. Li and Z. Lin, NeurIPS, 2015, pp. 379–387.
 - Distributed optimization and statistical learning via the alternating direction method of multipliers
-  - S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein et al., Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
+  - S. Boyd, N. Parikh, E. Chu, et al., Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
 
 #### For Numerical Integration with MCMC
 - Bayesian learning via stochastic gradient langevin dynamics
@@ -158,7 +158,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - A fast parallel stochastic gradient method for matrix factorization in shared memory systems
   - W.-S. Chin, Y. Zhuang, Y.-C. Juan, and C.-J. Lin, ACM TIST, vol. 6, no. 1, pp. 1–24, 2015.
 - The shogun machine learning toolbox
-  - S. Sonnenburg, S. Henschel, C. Widmer, J. Behr, A. Zien, F. d. Bona, A. Binder, C. Gehl, V. Franc et al., JMLR, vol. 11, no. 6, pp. 1799–1802, 2010.
+  - S. Sonnenburg, S. Henschel, C. Widmer, J. Behr, A. Zien, et al., JMLR, vol. 11, no. 6, pp. 1799–1802, 2010.
 - Hogwild: A lock-free approach to parallelizing stochastic gradient descent
   - B. Recht, C. Re, S. Wright, and F. Niu, NeurIPS, 2011, pp. 693–701.
 - Theano: Deep learning on gpus with python
@@ -186,7 +186,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Spark: cluster computing with working sets
   - M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, in Proceedings of Hot Topics in Cloud Computing, 2010, pp. 10–10.
 - Mllib: machine learning in apache spark
-  - X. Meng, J. K. Bradley, B. Yavuz, E. R. Sparks, S. Venkataraman, D. Liu, J. Freeman, D. B. Tsai, M. Amde, S. Owen et al., JMLR, vol. 17, no. 34, pp. 1–7, 2016.
+  - X. Meng, J. K. Bradley, B. Yavuz, E. R. Sparks, et al., JMLR, vol. 17, no. 34, pp. 1–7, 2016.
 - Pregel: a system for large-scale graph processing
   - G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, and G. Czajkowski, SIGMOD, 2010, pp. 135–146.
 - Distributed graphlab: a framework for machine learning and data mining in the cloud
@@ -214,7 +214,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Horovod: fast and easy distributed deep learning in tensorflow
   - A. Sergeev and M. Del Balso, arXiv preprint arXiv:1802.05799, 2018.
 - Accurate, large minibatch sgd: Training imagenet in 1 hour
-  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, arXiv preprint arXiv:1706.02677, 2017.
+  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, et al., arXiv preprint arXiv:1706.02677, 2017.
   
 ### Hybrid Collaboration.
 - 1-bit stochastic gradient descent and its application to data-parallel distributed training of speech dnns
