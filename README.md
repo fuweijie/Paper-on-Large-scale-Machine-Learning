@@ -1,5 +1,4 @@
 # Paper-on-Large-scale-Machine-Learning
-### The following are some suggeestions for papers on large scale machine learning.
 ### Surveys
 O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
 
@@ -32,8 +31,52 @@ P.-G. Martinsson, V. Rokhlin, and M. Tygert, “A randomized algorithm for the d
 Y. Yang, M. Pilanci, M. J. Wainwright et al., “Randomized sketches for kernels: Fast and optimal nonparametric regression,” The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
 
 ### Graph-based Models
+Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, “Fast knn graph construction with locality sensitive hashing,” in ECML PKDD, 2013, pp. 660–674.
+
+J. Wang, J. Wang, G. Zeng, Z. Tu, R. Gan, and S. Li, “Scalable k-nn graph construction for visual descriptors,” in Proceedings of CVPR, 2012, pp. 1106–1113.
+
+J. Chen, H. R. Fang, and Y. Saad, “Fast approximate k nn graph construction for high dimensional data via recursive lanczos bisection,” JMLR, vol. 10, no. 5, pp. 1989–2012, 2009.
+
+Y. Kalantidis and Y. Avrithis, “Locally optimized product quantization for approximate nearest neighbor search,” in Proceedings of CVPR, 2014, pp. 2321–2328.
+
+W. Liu, J. He, and S.-F. Chang, “Large graph construction for scalable semi-supervised learning,” in Proceedings of ICML, 2010, pp. 679–686.
+
+W. Fu, M. Wang, S. Hao, and T. Mu, “Flag: Faster learning on anchor graph with label predictor optimization,” IEEE TBD, no. 1, pp. 1–1, 2017.
+
+M. Wang, W. Fu, S. Hao, H. Liu, and X. Wu, “Learning on big graph: Label inference and regularization with anchor hierarchy,” IEEE TKDE, vol. 29, no. 5, pp. 1101–1114, 2017.
+
+M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, “Scalable semisupervised learning by efficient anchor graph regularization,” IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
+
 ### Deep Models
+A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, “Mobilenets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.
+
+L. Sifre and S. Mallat, “Rigid-motion scattering for image classification,” Ph. D. thesis, 2014. 
+
+C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, “Going deeper with convolutions,” in Proceedings of CVPR, 2015, pp. 1–9.
+
+X. Zhang, X. Zhou, M. Lin, and J. Sun, “Shufflenet: An extremely efficient convolutional neural network for mobile devices,” in Proceedings of CVPR, 2018, pp. 6848–6856.
+
+C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna, “Rethinking the inception architecture for computer vision,” in Proceedings of CVPR, 2016, pp. 2818–2826.
+
+F. Yu and V. Koltun, “Multi-scale context aggregation by dilated convolutions,” in Proceedings of ICLR, 2016.
+
+S. S. Liew, M. Khalil-Hani, and R. Bakhteri, “Bounded activation functions for enhanced training stability of deep neural networks on visual pattern recognition problems,” Neurocomputing, vol. 216, pp. 718–734, 2016.
+
+H. Chen, Y. Wang, C. Xu, B. Shi, C. Xu, Q. Tian, and C. Xu, “Addernet: Do we really need multiplications in deep learning?”arXiv preprint arXiv:1912.13200, 2019.
+
 ### Tree-based Models
+J. Deng, S. Satheesh, A. C. Berg, and F. Li, “Fast and balanced: Efficient label tree learning for large scale object recognition,” in Proceedings of NeurIPS, 2011, pp. 567–575.
+
+T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
+
+G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.- Y. Liu, “Lightgbm: A highly efficient gradient boosting decision tree,” in Proceedings of NeurIPS, 2017, pp. 3146–3154.
+
+L. Breiman, “Random forests,” Machine learning, vol. 45, no. 1, pp.5–32, 2001.
+
+T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
+
+Y. Ben-Haim and E. Tom-Tov, “A streaming parallel decision tree algorithm.” JMLR, vol. 11, no. 2, 2010.
+
 ## Optimization Approximation.
 ## Computation Parallelism.
 ## Hybrid Collaboration.
