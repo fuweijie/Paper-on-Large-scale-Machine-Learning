@@ -207,3 +207,33 @@ A. Sergeev and M. Del Balso, “Horovod: fast and easy distributed deep learning
 P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, “Accurate, large minibatch sgd: Training imagenet in 1 hour,” arXiv preprint arXiv:1706.02677, 2017.
 
 ### Hybrid Collaboration.
+F. Seide, H. Fu, J. Droppo, G. Li, and D. Yu, “1-bit stochastic gradient descent and its application to data-parallel distributed training of speech dnns,” in Proceedings of INTERSPEECH, 2014.
+
+D. Alistarh, D. Grubic, J. Li, R. Tomioka, and M. Vojnovic, “Qsgd: Communication-efficient sgd via gradient quantization and encoding,” in Proceedings of NeurIPS, 2017, pp. 1709–1720.
+
+W. Wen, C. Xu, F. Yan, C. Wu, Y. Wang, Y. Chen, and H. Li, “Terngrad: Ternary gradients to reduce communication in distributed deep learning,” in Proceedings of NeurIPS, 2017, pp. 1509–1519.
+
+Y. Lin, S. Han, H. Mao, Y. Wang, and W. J. Dally, “Deep gradient compression: Reducing the communication bandwidth for distributed training,” arXiv preprint arXiv:1712.01887, 2017.
+
+J. Jiang, F. Fu, T. Yang, and B. Cui, “Sketchml: Accelerating distributed machine learning with data sketches,” in Proceedings of SIGMOD, 2018, pp. 1269–1284.
+
+H. Zhang, J. Li, K. Kara, D. Alistarh, J. Liu, and C. Zhang, “Zipml: Training linear models with end-to-end low precision, and a little bit of deep learning,” in Proceedings of ICML, 2017, pp. 4035–4043.
+
+J. Langford, A. Smola, and M. Zinkevich, “Slow learners are fast,” arXiv preprint arXiv:0911.0491, 2009.
+
+A. Agarwal and J. C. Duchi, “Distributed delayed stochastic optimization,” in Proceedings of NeurIPS, 2011, pp. 873–881.
+
+M. Jaggi, V. Smith, M. Takac, J. Terhorst, S. Krishnan, T. Hofmann, and M. I. Jordan, “Communication-efficient distributed dual coordinate ascent,” in Proceedings of NeurIPS, 2014, pp. 3068–3076.
+
+P. Richtarik and M. Tak ´ a´c, “Distributed coordinate descent method for learning with big data,” JMLR, vol. 17, no. 1, pp. 2657–2681, 2016.
+
+L. Y. Zhang S, Choromanska AE, “Deep learning with elastic averaging sgd,” in Proceedings of NeurIPS, 2015, pp. 685–693.
+
+M. Zinkevich, M. Weimer, L. Li, and A. J. Smola, “Parallelized stochastic gradient descent,” in Proceedings of NeurIPS, 2010, pp. 2595–2603.
+
+S. Zheng, Q. Meng, T. Wang, W. Chen, N. Yu, Z.-M. Ma, and T.-Y. Liu, “Asynchronous stochastic gradient descent with delay compensation,” in Proceedings of ICML, 2017, pp. 4120–4129.
+
+H. Tang, X. Lian, T. Zhang, and J. Liu, “Doublesqueeze: Parallel stochastic gradient descent with double-pass error-compensated compression,” arXiv preprint arXiv:1905.05957, 2019.
+
+J. Wu, W. Huang, J. Huang, and T. Zhang, “Error compensated quantized sgd and its applications to large-scale distributed optimization,” arXiv preprint arXiv:1806.08054, 2018.
+
