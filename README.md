@@ -8,6 +8,9 @@ C.-W. Tsai, C.-F. Lai, H.-C. Chao, and A. V. Vasilakos, “Big data analytics: a
 
 S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, “A survey of open source tools for machine learning with big data in the hadoop ecosystem,” Journal of Big Data, vol. 2, no. 1, p. 24, 2015.
 
+S. Sun, Z. Cao, H. Zhu, and J. Zhao, “A survey of optimization methods from a machine learning perspective,” IEEE Trans on Cybernetics, 2019.
+
+
 ### We present a comprehensive overview of LML according to three computational perspectives:
 1) model simplification, which reduces computational complexities by simplifying predictive models; 
 2) optimization approximation, which enhances computational efficiency by designing better optimization algorithms; 
@@ -78,5 +81,35 @@ T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proc
 Y. Ben-Haim and E. Tom-Tov, “A streaming parallel decision tree algorithm.” JMLR, vol. 11, no. 2, 2010.
 
 ## Optimization Approximation.
+### For Mini-batch Gradient Descent
+G. Alain, A. Lamb, C. Sankar, A. Courville, and Y. Bengio, “Variance reduction in sgd by distributed importance sampling,” arXiv preprint arXiv:1511.06481, 2015.
+
+P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, “Accurate, large minibatch sgd: Training imagenet in 1 hour,” arXiv preprint arXiv:1706.02677, 2017.
+
+R. Johnson and T. Zhang, “Accelerating stochastic gradient descent using predictive variance reduction,” in Proceedings of NeurIPS, 2013, pp. 315–323.
+
+Y. Nesterov, “Gradient methods for minimizing composite functions,” Mathematical Programming, vol. 140, no. 1, pp. 125–161, 2013.
+
+N. Qian, “On the momentum term in gradient descent learning algorithms,” Neural networks, vol. 12, no. 1, pp. 145–151, 1999.
+
+M. Schmidt, N. Le Roux, and F. Bach, “Minimizing finite sums with the stochastic average gradient,” Mathematical Programming, vol. 162, no. 1-2, pp. 83–112, 2017.
+
+R. H. Byrd, S. L. Hansen, J. Nocedal, and Y. Singer, “A stochastic quasi-newton method for large-scale optimization,” SIAM Journal on Optimization, vol. 26, no. 2, pp. 1008–1031, 2016.
+
+J. Engel, T. Schops, and D. Cremers, “Lsd-slam: Large-scale direct monocular slam,” in Proceedings of ECCV, 2014, pp. 834–849.
+
+Q. V. Le, J. Ngiam, A. Coates, A. Lahiri, B. Prochnow, and A. Y. Ng, “On optimization methods for deep learning,” in Proceedings of ICML, 2011, pp. 265–272.
+
+W. Xu, “Towards optimal one pass large scale learning with averaged stochastic gradient descent,” arXiv preprint arXiv:1107.2490, 2011.
+
+J. Duchi, E. Hazan, and Y. Singer, “Adaptive subgradient methods for online learning and stochastic optimization,” JMLR, vol. 12, no. Jul, pp. 2121–2159, 2011.
+
+D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.
+ 
+M. D. Zeiler, “Adadelta: an adaptive learning rate method,” arXiv preprint arXiv:1212.5701, 2012.
+
+
+### For Coordinate Gradient Descent
+
 ## Computation Parallelism.
 ## Hybrid Collaboration.
