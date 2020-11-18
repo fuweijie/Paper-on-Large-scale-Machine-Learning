@@ -1,5 +1,8 @@
 # Paper-on-Large-scale-Machine-Learning
-This page is organized based on our paper：A Survey on Large-Scale Machine Learning, IEEE TKDE, 2020．Please refer the paper for more details. If you need further discussion, please feel free to contact us with fwj.edu@gmail.com
+This page is organized based on our paper：
+- A Survey on Large-Scale Machine Learning, IEEE TKDE, 2020．
+
+Please refer the paper for more details. If you need further discussion, please feel free to contact us with fwj.edu@gmail.com
 
 #### We review LML according to three computational perspectives:
 Model Simplification, which reduces Computational Complexities by simplifying predictive models; 
