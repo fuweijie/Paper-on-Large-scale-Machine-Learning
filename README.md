@@ -1,4 +1,4 @@
-# Paper-on-Large-scale-Machine-Learning
+# Paper-on-Large-scale-Machine-Learning (LML)
 This page is organized based on our paper：
 #### A Survey on Large-Scale Machine Learning, [[Arxiv]](https://arxiv.org/abs/2008.03911), [[IEEE TKDE]](https://ieeexplore.ieee.org/document/9165233).
 Please refer the paper for more details. If you find any representative papers are missing or need further discussion, please feel free to contact us with fwj.edu@gmail.com
