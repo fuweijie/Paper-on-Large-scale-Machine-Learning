@@ -1,5 +1,5 @@
 # Paper-on-Large-scale-Machine-Learning
-### Surveys
+#### Surveys
 O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
 
 L. Bottou, F. E. Curtis, and J. Nocedal, “Optimization methods for large-scale machine learning,” SIAM Review, vol. 60, no. 2, pp. 223–311, 2018.
@@ -11,12 +11,12 @@ S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, “A survey of op
 S. Sun, Z. Cao, H. Zhu, and J. Zhao, “A survey of optimization methods from a machine learning perspective,” IEEE Trans on Cybernetics, 2019.
 
 
-### We present a comprehensive overview of LML according to three computational perspectives:
+#### We present a comprehensive overview of LML according to three computational perspectives:
 1) model simplification, which reduces computational complexities by simplifying predictive models; 
 2) optimization approximation, which enhances computational efficiency by designing better optimization algorithms; 
 3) computation parallelism, which improves computational capabilities by scheduling multiple computing devices.
-## Model Simplification.
-### Kernel-based Models
+### Model Simplification.
+#### Kernel-based Models
 S. Kumar, M. Mohri, and A. Talwalkar, “Sampling methods for the nystrom method,” JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
 
 T. Yang, Y.-F. Li, M. Mahdavi, R. Jin, and Z.-H. Zhou, “Nystrom method vs random fourier features: A theoretical and empirical comparison,” in Advances in neural information processing systems, 2012, pp. 476–484.
@@ -33,7 +33,7 @@ P.-G. Martinsson, V. Rokhlin, and M. Tygert, “A randomized algorithm for the d
 
 Y. Yang, M. Pilanci, M. J. Wainwright et al., “Randomized sketches for kernels: Fast and optimal nonparametric regression,” The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
 
-### Graph-based Models
+#### Graph-based Models
 Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, “Fast knn graph construction with locality sensitive hashing,” in ECML PKDD, 2013, pp. 660–674.
 
 J. Wang, J. Wang, G. Zeng, Z. Tu, R. Gan, and S. Li, “Scalable k-nn graph construction for visual descriptors,” in Proceedings of CVPR, 2012, pp. 1106–1113.
@@ -50,7 +50,7 @@ M. Wang, W. Fu, S. Hao, H. Liu, and X. Wu, “Learning on big graph: Label infer
 
 M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, “Scalable semisupervised learning by efficient anchor graph regularization,” IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
 
-### Deep Models
+#### Deep Models
 A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, “Mobilenets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.
 
 L. Sifre and S. Mallat, “Rigid-motion scattering for image classification,” Ph. D. thesis, 2014. 
@@ -67,7 +67,7 @@ S. S. Liew, M. Khalil-Hani, and R. Bakhteri, “Bounded activation functions for
 
 H. Chen, Y. Wang, C. Xu, B. Shi, C. Xu, Q. Tian, and C. Xu, “Addernet: Do we really need multiplications in deep learning?”arXiv preprint arXiv:1912.13200, 2019.
 
-### Tree-based Models
+#### Tree-based Models
 J. Deng, S. Satheesh, A. C. Berg, and F. Li, “Fast and balanced: Efficient label tree learning for large scale object recognition,” in Proceedings of NeurIPS, 2011, pp. 567–575.
 
 T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
@@ -80,8 +80,8 @@ T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proc
 
 Y. Ben-Haim and E. Tom-Tov, “A streaming parallel decision tree algorithm.” JMLR, vol. 11, no. 2, 2010.
 
-## Optimization Approximation.
-### For Mini-batch Gradient Descent
+### Optimization Approximation.
+#### For Mini-batch Gradient Descent
 G. Alain, A. Lamb, C. Sankar, A. Courville, and Y. Bengio, “Variance reduction in sgd by distributed importance sampling,” arXiv preprint arXiv:1511.06481, 2015.
 
 P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, “Accurate, large minibatch sgd: Training imagenet in 1 hour,” arXiv preprint arXiv:1706.02677, 2017.
@@ -109,7 +109,7 @@ D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,” arXiv 
 M. D. Zeiler, “Adadelta: an adaptive learning rate method,” arXiv preprint arXiv:1212.5701, 2012.
 
 
-### For Coordinate Gradient Descent
+#### For Coordinate Gradient Descent
 K.-W. Chang, C.-J. Hsieh, and C.-J. Lin, “Coordinate descent method for large-scale l2-loss linear support vector machines,” Journal of Machine Learning Research, vol. 9, no. Jul, pp. 1369–1398,
 2008.
 
@@ -131,7 +131,7 @@ H. Li and Z. Lin, “Accelerated proximal gradient methods for nonconvex program
 
 S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein et al., “Distributed optimization and statistical learning via the alternating direction method of multipliers,” Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
 
-### For Numerical Integration with MCMC
+#### For Numerical Integration with MCMC
 M. Welling and Y. W. Teh, “Bayesian learning via stochastic gradient langevin dynamics,” in Proceedings of ICML, 2011, pp. 681–688.
 
 S. Ahn, A. Korattikara, and M. Welling, “Bayesian posterior sampling via stochastic gradient fisher scoring,” arXiv preprint arXiv:1206.6380, 2012.
@@ -142,5 +142,5 @@ S. Patterson and Y. W. Teh, “Stochastic gradient riemannian langevin dynamics 
 
 Y.-A. Ma, T. Chen, and E. Fox, “A complete recipe for stochastic gradient mcmc,” in Proceedings of NeurIPS, 2015, pp. 2917–2925.
 
-## Computation Parallelism.
-## Hybrid Collaboration.
+### Computation Parallelism.
+### Hybrid Collaboration.
