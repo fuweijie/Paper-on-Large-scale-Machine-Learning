@@ -12,7 +12,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 
 #### Related Surveys
 - Efficient machine learning for big data: A review, 
-  - O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
+  - O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, et al., Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
 - Optimization methods for large-scale machine learning
   - L. Bottou, F. E. Curtis, and J. Nocedal, SIAM Review, vol. 60, no. 2, pp. 223–311, 2018.
 - Big data analytics: a survey
@@ -99,7 +99,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Gradient methods for minimizing composite functions
   - Y. Nesterov, Mathematical Programming, vol. 140, no. 1, pp. 125–161, 2013.
 - On the momentum term in gradient descent learning algorithms
-  N. Qian, Neural networks, vol. 12, no. 1, pp. 145–151, 1999.
+  - N. Qian, Neural networks, vol. 12, no. 1, pp. 145–151, 1999.
 - Minimizing finite sums with the stochastic average gradient
   - M. Schmidt, N. Le Roux, and F. Bach, Mathematical Programming, vol. 162, no. 1-2, pp. 83–112, 2017.
 - A stochastic quasi-newton method for large-scale optimization
