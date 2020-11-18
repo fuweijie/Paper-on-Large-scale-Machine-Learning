@@ -28,7 +28,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Sampling methods for the nystrom method
   - S. Kumar, M. Mohri, and A. Talwalkar, JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
 - Nystrom method vs random fourier features: A theoretical and empirical comparison
-  - T. Yang, Y.-F. Li, M. Mahdavi, R. Jin, and Z.-H. Zhou, NIPS, 2012, pp. 476–484.
+  - T. Yang, Y.-F. Li, M. Mahdavi, R. Jin, and Z.-H. Zhou, NeurIPS, 2012, pp. 476–484.
 - Scaling up graph-based semisupervised learning via prototype vector machine
   - K. Zhang, L. Lan, J. T. Kwok, S. Vucetic, and B. Parvin, IEEE TNNLS, vol. 26, no. 3, pp. 444–457, 2015.
 - Sampling with minimum sum of squared similarities for nystrom-based large scale spectral clustering
@@ -43,51 +43,54 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
   - Y. Yang, M. Pilanci, M. J. Wainwright et al., The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
 
 #### Graph-based Models
-Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, “Fast knn graph construction with locality sensitive hashing,” in ECML PKDD, 2013, pp. 660–674.
-
-J. Wang, J. Wang, G. Zeng, Z. Tu, R. Gan, and S. Li, “Scalable k-nn graph construction for visual descriptors,” in Proceedings of CVPR, 2012, pp. 1106–1113.
-
-J. Chen, H. R. Fang, and Y. Saad, “Fast approximate k nn graph construction for high dimensional data via recursive lanczos bisection,” JMLR, vol. 10, no. 5, pp. 1989–2012, 2009.
-
-Y. Kalantidis and Y. Avrithis, “Locally optimized product quantization for approximate nearest neighbor search,” in Proceedings of CVPR, 2014, pp. 2321–2328.
-
-W. Liu, J. He, and S.-F. Chang, “Large graph construction for scalable semi-supervised learning,” in Proceedings of ICML, 2010, pp. 679–686.
-
-W. Fu, M. Wang, S. Hao, and T. Mu, “Flag: Faster learning on anchor graph with label predictor optimization,” IEEE TBD, no. 1, pp. 1–1, 2017.
-
-M. Wang, W. Fu, S. Hao, H. Liu, and X. Wu, “Learning on big graph: Label inference and regularization with anchor hierarchy,” IEEE TKDE, vol. 29, no. 5, pp. 1101–1114, 2017.
-
-M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, “Scalable semisupervised learning by efficient anchor graph regularization,” IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
+- Fast knn graph construction with locality sensitive hashing
+  - Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, ECML PKDD, 2013, pp. 660–674.
+- Scalable k-nn graph construction for visual descriptors
+  - J. Wang, J. Wang, G. Zeng, Z. Tu, R. Gan, and S. Li, CVPR, 2012, pp. 1106–1113.
+- Fast approximate k nn graph construction for high dimensional data via recursive lanczos bisection
+  - J. Chen, H. R. Fang, and Y. Saad, JMLR, vol. 10, no. 5, pp. 1989–2012, 2009.
+- Locally optimized product quantization for approximate nearest neighbor search
+  - Y. Kalantidis and Y. Avrithis, CVPR, 2014, pp. 2321–2328.
+- Large graph construction for scalable semi-supervised learning
+  - W. Liu, J. He, and S.-F. Chang, ICML, 2010, pp. 679–686.
+- FLAG: Faster learning on anchor graph with label predictor optimization
+  - W. Fu, M. Wang, S. Hao, and T. Mu, IEEE TBD, no. 1, pp. 1–1, 2017.
+- Learning on big graph: Label inference and regularization with anchor hierarch
+  - M. Wang, W. Fu, S. Hao, H. Liu, and X. Wu, IEEE TKDE, vol. 29, no. 5, pp. 1101–1114, 2017.
+- Scalable semisupervised learning by efficient anchor graph regularization
+  - M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
 
 #### Deep Models
-A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, “Mobilenets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.
-
-L. Sifre and S. Mallat, “Rigid-motion scattering for image classification,” Ph. D. thesis, 2014. 
-
-C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, “Going deeper with convolutions,” in Proceedings of CVPR, 2015, pp. 1–9.
-
-X. Zhang, X. Zhou, M. Lin, and J. Sun, “Shufflenet: An extremely efficient convolutional neural network for mobile devices,” in Proceedings of CVPR, 2018, pp. 6848–6856.
-
-C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna, “Rethinking the inception architecture for computer vision,” in Proceedings of CVPR, 2016, pp. 2818–2826.
-
-F. Yu and V. Koltun, “Multi-scale context aggregation by dilated convolutions,” in Proceedings of ICLR, 2016.
-
-S. S. Liew, M. Khalil-Hani, and R. Bakhteri, “Bounded activation functions for enhanced training stability of deep neural networks on visual pattern recognition problems,” Neurocomputing, vol. 216, pp. 718–734, 2016.
-
-H. Chen, Y. Wang, C. Xu, B. Shi, C. Xu, Q. Tian, and C. Xu, “Addernet: Do we really need multiplications in deep learning?”arXiv preprint arXiv:1912.13200, 2019.
+- Mobilenets: Efficient convolutional neural networks for mobile vision applications
+  - A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, arXiv preprint arXiv:1704.04861, 2017.
+- Rigid-motion scattering for image classification
+  - L. Sifre and S. Mallat, Ph. D. thesis, 2014. 
+- Going deeper with convolutions
+  - C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich, CVPR, 2015, pp. 1–9.
+- Shufflenet: An extremely efficient convolutional neural network for mobile devices
+  - X. Zhang, X. Zhou, M. Lin, and J. Sun, CVPR, 2018, pp. 6848–6856.
+- Rethinking the inception architecture for computer vision
+  - C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, and Z. Wojna, CVPR, 2016, pp. 2818–2826.
+- Multi-scale context aggregation by dilated convolutions
+  - F. Yu and V. Koltun, ICLR, 2016.
+- Bounded activation functions for enhanced training stability of deep neural networks on visual pattern recognition problems
+  - S. S. Liew, M. Khalil-Hani, and R. Bakhteri, Neurocomputing, vol. 216, pp. 718–734, 2016.
+- Addernet: Do we really need multiplications in deep learning?
+  - H. Chen, Y. Wang, C. Xu, B. Shi, C. Xu, Q. Tian, and C. Xu, arXiv preprint arXiv:1912.13200, 2019.
 
 #### Tree-based Models
-J. Deng, S. Satheesh, A. C. Berg, and F. Li, “Fast and balanced: Efficient label tree learning for large scale object recognition,” in Proceedings of NeurIPS, 2011, pp. 567–575.
-
-T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
-
-G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.- Y. Liu, “Lightgbm: A highly efficient gradient boosting decision tree,” in Proceedings of NeurIPS, 2017, pp. 3146–3154.
-
-L. Breiman, “Random forests,” Machine learning, vol. 45, no. 1, pp.5–32, 2001.
-
-T. Chen and C. Guestrin, “Xgboost: A scalable tree boosting system,” in Proceedings of SIGKDD, 2016, pp. 785–794.
-
-Y. Ben-Haim and E. Tom-Tov, “A streaming parallel decision tree algorithm.” JMLR, vol. 11, no. 2, 2010.
+- Fast and balanced: Efficient label tree learning for large scale object recognition
+  - J. Deng, S. Satheesh, A. C. Berg, and F. Li, NeurIPS, 2011, pp. 567–575.
+- Xgboost: A scalable tree boosting system
+  - T. Chen and C. Guestrin, SIGKDD, 2016, pp. 785–794.
+- Lightgbm: A highly efficient gradient boosting decision tree
+  - G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.- Y. Liu, NeurIPS, 2017, pp. 3146–3154.
+- Random forests
+  - L. Breiman, Machine learning, vol. 45, no. 1, pp.5–32, 2001.
+- Xgboost: A scalable tree boosting system
+  - T. Chen and C. Guestrin, SIGKDD, 2016, pp. 785–794.
+- A streaming parallel decision tree algorithm
+  - Y. Ben-Haim and E. Tom-Tov, JMLR, vol. 11, no. 2, 2010.
 
 ### Optimization Approximation.
 #### For Mini-batch Gradient Descent
