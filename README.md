@@ -37,7 +37,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Improved nystrom low-rank approximation and error analysis
   - K. Zhang, I. W. Tsang, and J. T. Kwok, ICML, 2008, pp. 1232–1239.
 - A randomized algorithm for the decomposition of matrices
-  - P.-G. Martinsson, V. Rokhlin, and M. Tygert, Applied and Computational Harmonic Analysis, vol. 30, no. 1, pp. 47–68, 2011.
+  - P.-G. Martinsson, et al., Applied and Computational Harmonic Analysis, vol. 30, no. 1, pp. 47–68, 2011.
 - Randomized sketches for kernels: Fast and optimal nonparametric regression
   - Y. Yang, M. Pilanci, M. J. Wainwright et al., The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
 #### Graph-based Models
@@ -103,7 +103,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Minimizing finite sums with the stochastic average gradient
   - M. Schmidt, N. Le Roux, and F. Bach, Mathematical Programming, vol. 162, no. 1-2, pp. 83–112, 2017.
 - A stochastic quasi-newton method for large-scale optimization
-  - R. H. Byrd, S. L. Hansen, J. Nocedal, and Y. Singer, SIAM Journal on Optimization, vol. 26, no. 2, pp. 1008–1031, 2016.
+  - R. H. Byrd, S. L. Hansen, et al., SIAM Journal on Optimization, vol. 26, no. 2, pp. 1008–1031, 2016.
 - Lsd-slam: Large-scale direct monocular slam
   - J. Engel, T. Schops, and D. Cremers, ECCV, 2014, pp. 834–849.
 - On optimization methods for deep learning
@@ -137,7 +137,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Accelerated proximal gradient methods for nonconvex programming
   - H. Li and Z. Lin, NeurIPS, 2015, pp. 379–387.
 - Distributed optimization and statistical learning via the alternating direction method of multipliers
-  - S. Boyd, N. Parikh, E. Chu, et al., Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
+  - S. Boyd, et al., Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
 
 #### For Numerical Integration with MCMC
 - Bayesian learning via stochastic gradient langevin dynamics
@@ -164,15 +164,15 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Theano: Deep learning on gpus with python
   - J. Bergstra, F. Bastien, O. Breuleux, et al., NeurIPS, vol. 3. Citeseer, 2011, pp. 1–48.
 - Caffe: Convolutional architecture for fast feature embedding
-  - Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. B. Girshick, S. Guadarrama, and T. Darrell, ACM MM, 2014, pp. 675–678.
+  - Y. Jia, E. Shelhamer, J. Donahue, Set al., ACM MM, 2014, pp. 675–678.
 - Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems
-  - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, arXiv preprint arXiv:1512.01274, 2015.
+  - T. Chen, M. Li, Y. Li, M. Lin, et al., arXiv preprint arXiv:1512.01274, 2015.
 - Graphchi: Large-scale graph computation on just a PC
   - A. Kyrola, G. Blelloch, and C. Guestrin, OSDI, 2012, pp. 31–46.
 - X-stream: Edgecentric graph processing using streaming partitions
   - A. Roy, I. Mihailovic, and W. Zwaenepoel, SOSP, 2013, pp. 472–488.
 - Gridgraph: Large-scale graph processing on a single machine using 2-level hierarchical partitioning
-  - X. Zhu, W. Han, and W. Chen, ,” in USENIX ATC, 2015, pp. 375–386.
+  - X. Zhu, W. Han, and W. Chen, USENIX ATC, 2015, pp. 375–386.
 - vdnn: Virtualized deep neural networks for scalable, memory-efficient neural network design
   - M. Rhu, N. Gimelshein, J. Clemons, A. Zulfiqar, and S. W. Keckler, MICRO. IEEE, 2016, pp. 1–13.
 
@@ -180,41 +180,41 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Mapreduce: simplified data processing on large clusters
   - J. Dean and S. Ghemawat, Communications of the ACM, vol. 51, no. 1, pp. 107–113, 2008.
 - Iterative mapreduce for large scale machine learning
-  - J. Rosen, N. Polyzotis, V. Borkar, Y. Bu, M. J. Carey, M. Weimer, T. Condie, and R. Ramakrishnan, arXiv preprint arXiv:1303.3517, 2013.
+  - J. Rosen, N. Polyzotis, V. Borkar, et al., arXiv preprint arXiv:1303.3517, 2013.
 - Hybrid parallelization strategies for large-scale machine learning in systemml
-  - M. Boehm, S. Tatikonda, B. Reinwald, P. Sen, Y. Tian, D. R. Burdick, and S. Vaithyanathan, VLDB, vol. 7, no. 7, pp. 553–564, 2014.
+  - M. Boehm, S. Tatikonda, B. Reinwald, et al., VLDB, vol. 7, no. 7, pp. 553–564, 2014.
 - Spark: cluster computing with working sets
-  - M. Zaharia, M. Chowdhury, M. J. Franklin, S. Shenker, and I. Stoica, in Proceedings of Hot Topics in Cloud Computing, 2010, pp. 10–10.
+  - M. Zaharia, et al., in Proceedings of Hot Topics in Cloud Computing, 2010, pp. 10–10.
 - Mllib: machine learning in apache spark
   - X. Meng, J. K. Bradley, B. Yavuz, E. R. Sparks, et al., JMLR, vol. 17, no. 34, pp. 1–7, 2016.
 - Pregel: a system for large-scale graph processing
-  - G. Malewicz, M. H. Austern, A. J. Bik, J. C. Dehnert, I. Horn, N. Leiser, and G. Czajkowski, SIGMOD, 2010, pp. 135–146.
+  - G. Malewicz, M. H. Austern, A. J. Bik, et al., SIGMOD, 2010, pp. 135–146.
 - Distributed graphlab: a framework for machine learning and data mining in the cloud
-  - Y. Low, D. Bickson, J. E. Gonzalez, C. Guestrin, A. Kyrola, and J. M. Hellerstein, VLDB, vol. 5, no. 8, 2012, pp. 716–727.
+  - Y. Low, D. Bickson, J. E. Gonzalez, et al., VLDB, vol. 5, no. 8, 2012, pp. 716–727.
 - Powergraph: distributed graph-parallel computation on natural graphs
   - J. E. Gonzalez, Y. Low, H. Gu, D. Bickson, and C. Guestrin, OSDI, vol. 12, no. 1, 2012, p. 2.
 - Powerlyra: Differentiated graph computation and partitioning on skewed graphs
   - R. Chen, J. Shi, Y. Chen, B. Zang, H. Guan, and H. Chen, ACM TOPC, vol. 5, no. 3, pp. 1–39, 2019.
 - Large scale distributed deep networks
-  - J. Dean, G. Corrado, R. Monga, K. Chen, M. Devin, M. Mao, A. Senior, P. Tucker, K. Yang, Q. V. Le et al., NeurIPS, 2012, pp. 1223–1231.
+  - J. Dean, G. Corrado, R. Monga, K. Chen, et al., NeurIPS, 2012, pp. 1223–1231.
 - Scaling distributed machine learning with the parameter server
   - M. Li, D. G. Andersen, J. W. Park, A. J. Smola, A. Ahmed, V. Josifovski, et al., vol. 14, 2014, pp. 583–598.
 - Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems
-  - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, arXiv preprint arXiv:1512.01274, 2015.
+  - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, et al., arXiv preprint arXiv:1512.01274, 2015.
 - Dimboost: Boosting gradient boosting decision tree to higher dimension
   - J. Jiang, B. Cui, C. Zhang, and F. Fu, ICDM, 2018, pp. 1363–1376.
 - Petuum: A new platform for distributed machine learning on big data
-  - E. P. Xing, Q. Ho, W. Dai, J. K. Kim, J. Wei, S. Lee, X. Zheng, P. Xie, A. Kumar, and Y. Yu, IEEE TBD, vol. 1, no. 2, pp. 49–67, 2015.
+  - E. P. Xing, Q. Ho, W. Dai, et al., IEEE TBD, vol. 1, no. 2, pp. 49–67, 2015.
 - Xgboost: A scalable tree boosting system
   - T. Chen and C. Guestrin, SIGKDD, 2016, pp. 785–794.
 - Lightgbm: A highly efficient gradient boosting decision tree
-  - G. Ke, Q. Meng, T. Finley, T. Wang, W. Chen, W. Ma, Q. Ye, and T.Y. Liu, NeurIPS, 2017, pp. 3146–3154.
+  - G. Ke, Q. Meng, T. Finley, et al, NeurIPS, 2017, pp. 3146–3154.
 - Bandwidth optimal all-reduce algorithms for clusters of workstations
   - P. Patarasuk and X. Yuan, Elsevier JPDC, vol. 69, no. 2, pp. 117–124, 2009.
 - Horovod: fast and easy distributed deep learning in tensorflow
   - A. Sergeev and M. Del Balso, arXiv preprint arXiv:1802.05799, 2018.
 - Accurate, large minibatch sgd: Training imagenet in 1 hour
-  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, et al., arXiv preprint arXiv:1706.02677, 2017.
+  - P. Goyal, P. Dollar, R. Girshick, et al., arXiv preprint arXiv:1706.02677, 2017.
   
 ### Hybrid Collaboration.
 - 1-bit stochastic gradient descent and its application to data-parallel distributed training of speech dnns
@@ -234,7 +234,7 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 - Distributed delayed stochastic optimization
   - A. Agarwal and J. C. Duchi, NeurIPS, 2011, pp. 873–881.
 - Communication-efficient distributed dual coordinate ascent
-  - M. Jaggi, V. Smith, M. Takac, J. Terhorst, S. Krishnan, T. Hofmann, and M. I. Jordan, NeurIPS, 2014, pp. 3068–3076.
+  - M. Jaggi, V. Smith, M. Takac, Jet al., NeurIPS, 2014, pp. 3068–3076.
 - Distributed coordinate descent method for learning with big data
   - P. Richtarik et al., JMLR, vol. 17, no. 1, pp. 2657–2681, 2016.
 - Deep learning with elastic averaging sgd
