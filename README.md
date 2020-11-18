@@ -9,15 +9,16 @@ Optimization Approximation, which enhances Computational Efficiency by designing
 Computation Parallelism, which improves Computational Capabilities by scheduling multiple computing devices.
 
 #### Related Surveys
-O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
-
-L. Bottou, F. E. Curtis, and J. Nocedal, “Optimization methods for large-scale machine learning,” SIAM Review, vol. 60, no. 2, pp. 223–311, 2018.
-
-C.-W. Tsai, C.-F. Lai, H.-C. Chao, and A. V. Vasilakos, “Big data analytics: a survey,” Journal of Big data, vol. 2, no. 1, p. 21, 2015.
-
-S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, “A survey of open source tools for machine learning with big data in the hadoop ecosystem,” Journal of Big Data, vol. 2, no. 1, p. 24, 2015.
-
-S. Sun, Z. Cao, H. Zhu, and J. Zhao, “A survey of optimization methods from a machine learning perspective,” IEEE Trans on Cybernetics, 2019.
+- Efficient machine learning for big data: A review, 
+  - O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
+- Optimization methods for large-scale machine learning
+  - L. Bottou, F. E. Curtis, and J. Nocedal, SIAM Review, vol. 60, no. 2, pp. 223–311, 2018.
+- Big data analytics: a survey
+  - C.-W. Tsai, C.-F. Lai, H.-C. Chao, and A. V. Vasilakos, Journal of Big data, vol. 2, no. 1, p. 21, 2015.
+- A survey of open source tools for machine learning with big data in the hadoop ecosystem
+  - S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, Journal of Big Data, vol. 2, no. 1, p. 24, 2015.
+- A survey of optimization methods from a machine learning perspective
+  - S. Sun, Z. Cao, H. Zhu, and J. Zhao, IEEE Trans on Cybernetics, 2019.
 
 ### Model Simplification.
 #### Kernel-based Models
