@@ -1,5 +1,14 @@
 # Paper-on-Large-scale-Machine-Learning
-#### Surveys
+#### We review LML according to three computational perspectives:
+Model Simplification, which reduces Computational Complexities by simplifying predictive models; 
+
+Optimization Approximation, which enhances Computational Efficiency by designing better optimization algorithms; 
+
+Computation Parallelism, which improves Computational Capabilities by scheduling multiple computing devices.
+
+This page is organized based on our following paper：A Survey on Large-Scale Machine Learning．Please refer the paper for more details.
+
+#### Related Surveys
 O. Y. Al-Jarrah, P. D. Yoo, S. Muhaidat, G. K. Karagiannidis, and K. Taha, “Efficient machine learning for big data: A review,” Big Data Research, vol. 2, no. 3, pp. 87–93, 2015.
 
 L. Bottou, F. E. Curtis, and J. Nocedal, “Optimization methods for large-scale machine learning,” SIAM Review, vol. 60, no. 2, pp. 223–311, 2018.
@@ -10,11 +19,6 @@ S. Landset, T. M. Khoshgoftaar, A. N. Richter, and T. Hasanin, “A survey of op
 
 S. Sun, Z. Cao, H. Zhu, and J. Zhao, “A survey of optimization methods from a machine learning perspective,” IEEE Trans on Cybernetics, 2019.
 
-
-#### We review LML according to three computational perspectives:
-#### model simplification, which reduces computational complexities by simplifying predictive models; 
-#### optimization approximation, which enhances computational efficiency by designing better optimization algorithms; 
-#### computation parallelism, which improves computational capabilities by scheduling multiple computing devices.
 ### Model Simplification.
 #### Kernel-based Models
 S. Kumar, M. Mohri, and A. Talwalkar, “Sampling methods for the nystrom method,” JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
