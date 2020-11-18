@@ -110,6 +110,37 @@ M. D. Zeiler, “Adadelta: an adaptive learning rate method,” arXiv preprint a
 
 
 ### For Coordinate Gradient Descent
+K.-W. Chang, C.-J. Hsieh, and C.-J. Lin, “Coordinate descent method for large-scale l2-loss linear support vector machines,” Journal of Machine Learning Research, vol. 9, no. Jul, pp. 1369–1398,
+2008.
+
+C.-J. Hsieh, K.-W. Chang, C.-J. Lin, S. S. Keerthi, and S. Sundararajan, “A dual coordinate descent method for large-scale linear svm,” in Proceedings of ICML, 2008, pp. 408–415.
+
+I. S. Dhillon, P. K. Ravikumar, and A. Tewari, “Nearest neighbor based greedy coordinate descent,” in Proceedings of NeurIPS, 2011, pp. 2160–2168.
+
+J. Nutini, M. Schmidt, I. Laradji, M. Friedlander, and H. Koepke, “Coordinate descent converges faster with the gauss-southwell rule than random selection,” in Proceedings of ICML, 2015, pp. 1632–1641.
+
+Y. T. Lee and A. Sidford, “Efficient accelerated coordinate descent methods and faster algorithms for solving linear systems,” in IEEE FOCS, 2013, pp. 147–156.
+
+Y. Nesterov, “Efficiency of coordinate descent methods on hugescale optimization problems,” SIAM Journal on Optimization, vol. 22, no. 2, pp. 341–362, 2012.
+
+A. Beck and M. Teboulle, “A fast iterative shrinkage-thresholding algorithm for linear inverse problems,” SIAM journal on imaging sciences, vol. 2, no. 1, pp. 183–202, 2009.
+ 
+Q. Lin, Z. Lu, and L. Xiao, “An accelerated proximal coordinate gradient method,” in Proceedings of NeurIPS, 2014, pp. 3059–3067.
+
+H. Li and Z. Lin, “Accelerated proximal gradient methods for nonconvex programming,” in Proceedings of NeurIPS, 2015, pp. 379–387.
+
+S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein et al., “Distributed optimization and statistical learning via the alternating direction method of multipliers,” Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
+
+### For Numerical Integration with MCMC
+M. Welling and Y. W. Teh, “Bayesian learning via stochastic gradient langevin dynamics,” in Proceedings of ICML, 2011, pp. 681–688.
+
+S. Ahn, A. Korattikara, and M. Welling, “Bayesian posterior sampling via stochastic gradient fisher scoring,” arXiv preprint arXiv:1206.6380, 2012.
+
+T. Chen, E. Fox, and C. Guestrin, “Stochastic gradient hamiltonian monte carlo,” in Proceedings of ICML, 2014, pp. 1683–1691.
+
+S. Patterson and Y. W. Teh, “Stochastic gradient riemannian langevin dynamics on the probability simplex,” in Proceedings of NeurIPS, 2013, pp. 3102–3110.
+
+Y.-A. Ma, T. Chen, and E. Fox, “A complete recipe for stochastic gradient mcmc,” in Proceedings of NeurIPS, 2015, pp. 2917–2925.
 
 ## Computation Parallelism.
 ## Hybrid Collaboration.
