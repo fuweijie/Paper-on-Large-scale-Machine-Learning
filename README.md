@@ -25,21 +25,22 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 
 ### Model Simplification.
 #### Kernel-based Models
-S. Kumar, M. Mohri, and A. Talwalkar, “Sampling methods for the nystrom method,” JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
-
-T. Yang, Y.-F. Li, M. Mahdavi, R. Jin, and Z.-H. Zhou, “Nystrom method vs random fourier features: A theoretical and empirical comparison,” in Advances in neural information processing systems, 2012, pp. 476–484.
-
-K. Zhang, L. Lan, J. T. Kwok, S. Vucetic, and B. Parvin, “Scaling up graph-based semisupervised learning via prototype vector machines,” IEEE TNNLS, vol. 26, no. 3, pp. 444–457, 2015.
-
-D. Bouneffouf and I. Birol, “Sampling with minimum sum of squared similarities for nystrom-based large scale spectral clustering.” in Proceedings of IJCAI, 2015, pp. 2313–2319.
-
-A. Farahat, A. Ghodsi, and M. Kamel, “A novel greedy algorithm for nystrom approximation,” in Proceedings of AISTATS, 2011, pp. 269–277.
-
-K. Zhang, I. W. Tsang, and J. T. Kwok, “Improved nystrom low-rank approximation and error analysis,” in Proceedings of ICML, 2008, pp. 1232–1239.
-
-P.-G. Martinsson, V. Rokhlin, and M. Tygert, “A randomized algorithm for the decomposition of matrices,” Applied and Computational Harmonic Analysis, vol. 30, no. 1, pp. 47–68, 2011.
-
-Y. Yang, M. Pilanci, M. J. Wainwright et al., “Randomized sketches for kernels: Fast and optimal nonparametric regression,” The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
+- Sampling methods for the nystrom method
+  - S. Kumar, M. Mohri, and A. Talwalkar, JMLR, vol. 13, no. Apr, pp. 981–1006, 2012.
+- Nystrom method vs random fourier features: A theoretical and empirical comparison
+  - T. Yang, Y.-F. Li, M. Mahdavi, R. Jin, and Z.-H. Zhou, NIPS, 2012, pp. 476–484.
+- Scaling up graph-based semisupervised learning via prototype vector machine
+  - K. Zhang, L. Lan, J. T. Kwok, S. Vucetic, and B. Parvin, IEEE TNNLS, vol. 26, no. 3, pp. 444–457, 2015.
+- Sampling with minimum sum of squared similarities for nystrom-based large scale spectral clustering
+  - D. Bouneffouf and I. Birol, IJCAI, 2015, pp. 2313–2319.
+- A novel greedy algorithm for nystrom approximation
+  - A. Farahat, A. Ghodsi, and M. Kamel, AISTATS, 2011, pp. 269–277.
+- Improved nystrom low-rank approximation and error analysis
+  - K. Zhang, I. W. Tsang, and J. T. Kwok, ICML, 2008, pp. 1232–1239.
+- A randomized algorithm for the decomposition of matrices
+  - P.-G. Martinsson, V. Rokhlin, and M. Tygert, Applied and Computational Harmonic Analysis, vol. 30, no. 1, pp. 47–68, 2011.
+- Randomized sketches for kernels: Fast and optimal nonparametric regression
+  - Y. Yang, M. Pilanci, M. J. Wainwright et al., The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
 
 #### Graph-based Models
 Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, “Fast knn graph construction with locality sensitive hashing,” in ECML PKDD, 2013, pp. 660–674.
