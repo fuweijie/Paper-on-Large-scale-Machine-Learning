@@ -41,7 +41,6 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
   - P.-G. Martinsson, V. Rokhlin, and M. Tygert, Applied and Computational Harmonic Analysis, vol. 30, no. 1, pp. 47–68, 2011.
 - Randomized sketches for kernels: Fast and optimal nonparametric regression
   - Y. Yang, M. Pilanci, M. J. Wainwright et al., The Annals of Statistics, vol. 45, no. 3, pp. 991–1023, 2017.
-
 #### Graph-based Models
 - Fast knn graph construction with locality sensitive hashing
   - Y.-M. Zhang, K. Huang, G. Geng, and C.-L. Liu, ECML PKDD, 2013, pp. 660–674.
@@ -59,7 +58,6 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
   - M. Wang, W. Fu, S. Hao, H. Liu, and X. Wu, IEEE TKDE, vol. 29, no. 5, pp. 1101–1114, 2017.
 - Scalable semisupervised learning by efficient anchor graph regularization
   - M. Wang, W. Fu, S. Hao, D. Tao, and X. Wu, IEEE TKDE, vol. 28, no. 7, pp. 1864–1877, 2016.
-
 #### Deep Models
 - Mobilenets: Efficient convolutional neural networks for mobile vision applications
   - A. G. Howard, M. Zhu, B. Chen, D. Kalenichenko, W. Wang, T. Weyand, M. Andreetto, and H. Adam, arXiv preprint arXiv:1704.04861, 2017.
@@ -77,7 +75,6 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
   - S. S. Liew, M. Khalil-Hani, and R. Bakhteri, Neurocomputing, vol. 216, pp. 718–734, 2016.
 - Addernet: Do we really need multiplications in deep learning?
   - H. Chen, Y. Wang, C. Xu, B. Shi, C. Xu, Q. Tian, and C. Xu, arXiv preprint arXiv:1912.13200, 2019.
-
 #### Tree-based Models
 - Fast and balanced: Efficient label tree learning for large scale object recognition
   - J. Deng, S. Satheesh, A. C. Berg, and F. Li, NeurIPS, 2011, pp. 567–575.
@@ -94,93 +91,95 @@ Computation Parallelism, which improves Computational Capabilities by scheduling
 
 ### Optimization Approximation.
 #### For Mini-batch Gradient Descent
-G. Alain, A. Lamb, C. Sankar, A. Courville, and Y. Bengio, “Variance reduction in sgd by distributed importance sampling,” arXiv preprint arXiv:1511.06481, 2015.
-
-P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, “Accurate, large minibatch sgd: Training imagenet in 1 hour,” arXiv preprint arXiv:1706.02677, 2017.
-
-R. Johnson and T. Zhang, “Accelerating stochastic gradient descent using predictive variance reduction,” in Proceedings of NeurIPS, 2013, pp. 315–323.
-
-Y. Nesterov, “Gradient methods for minimizing composite functions,” Mathematical Programming, vol. 140, no. 1, pp. 125–161, 2013.
-
-N. Qian, “On the momentum term in gradient descent learning algorithms,” Neural networks, vol. 12, no. 1, pp. 145–151, 1999.
-
-M. Schmidt, N. Le Roux, and F. Bach, “Minimizing finite sums with the stochastic average gradient,” Mathematical Programming, vol. 162, no. 1-2, pp. 83–112, 2017.
-
-R. H. Byrd, S. L. Hansen, J. Nocedal, and Y. Singer, “A stochastic quasi-newton method for large-scale optimization,” SIAM Journal on Optimization, vol. 26, no. 2, pp. 1008–1031, 2016.
-
-J. Engel, T. Schops, and D. Cremers, “Lsd-slam: Large-scale direct monocular slam,” in Proceedings of ECCV, 2014, pp. 834–849.
-
-Q. V. Le, J. Ngiam, A. Coates, A. Lahiri, B. Prochnow, and A. Y. Ng, “On optimization methods for deep learning,” in Proceedings of ICML, 2011, pp. 265–272.
-
-W. Xu, “Towards optimal one pass large scale learning with averaged stochastic gradient descent,” arXiv preprint arXiv:1107.2490, 2011.
-
-J. Duchi, E. Hazan, and Y. Singer, “Adaptive subgradient methods for online learning and stochastic optimization,” JMLR, vol. 12, no. Jul, pp. 2121–2159, 2011.
-
-D. P. Kingma and J. Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.
- 
-M. D. Zeiler, “Adadelta: an adaptive learning rate method,” arXiv preprint arXiv:1212.5701, 2012.
-
+- Variance reduction in sgd by distributed importance samplin
+  - G. Alain, A. Lamb, C. Sankar, A. Courville, and Y. Bengio, arXiv preprint arXiv:1511.06481, 2015.
+- Accurate, large minibatch sgd: Training imagenet in 1 hour
+  - P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He, arXiv preprint arXiv:1706.02677, 2017.
+- Accelerating stochastic gradient descent using predictive variance reduction
+  - R. Johnson and T. Zhang, NeurIPS, 2013, pp. 315–323.
+- Gradient methods for minimizing composite functions
+  - Y. Nesterov, Mathematical Programming, vol. 140, no. 1, pp. 125–161, 2013.
+- On the momentum term in gradient descent learning algorithms
+  N. Qian, Neural networks, vol. 12, no. 1, pp. 145–151, 1999.
+- Minimizing finite sums with the stochastic average gradient
+  - M. Schmidt, N. Le Roux, and F. Bach, Mathematical Programming, vol. 162, no. 1-2, pp. 83–112, 2017.
+- A stochastic quasi-newton method for large-scale optimization
+  - R. H. Byrd, S. L. Hansen, J. Nocedal, and Y. Singer, SIAM Journal on Optimization, vol. 26, no. 2, pp. 1008–1031, 2016.
+- Lsd-slam: Large-scale direct monocular slam
+  - J. Engel, T. Schops, and D. Cremers, ECCV, 2014, pp. 834–849.
+- On optimization methods for deep learning
+  - Q. V. Le, J. Ngiam, A. Coates, A. Lahiri, B. Prochnow, and A. Y. Ng, ICML, 2011, pp. 265–272.
+- Towards optimal one pass large scale learning with averaged stochastic gradient descent
+  - W. Xu, arXiv preprint arXiv:1107.2490, 2011.
+- Adaptive subgradient methods for online learning and stochastic optimization
+  - J. Duchi, E. Hazan, and Y. Singer, JMLR, vol. 12, no. Jul, pp. 2121–2159, 2011.
+- Adam: A method for stochastic optimization
+  - D. P. Kingma and J. Ba, arXiv preprint arXiv:1412.6980, 2014.
+- Adadelta: an adaptive learning rate method
+  - M. D. Zeiler, arXiv preprint arXiv:1212.5701, 2012.
 
 #### For Coordinate Gradient Descent
-K.-W. Chang, C.-J. Hsieh, and C.-J. Lin, “Coordinate descent method for large-scale l2-loss linear support vector machines,” Journal of Machine Learning Research, vol. 9, no. Jul, pp. 1369–1398,
-2008.
-
-C.-J. Hsieh, K.-W. Chang, C.-J. Lin, S. S. Keerthi, and S. Sundararajan, “A dual coordinate descent method for large-scale linear svm,” in Proceedings of ICML, 2008, pp. 408–415.
-
-I. S. Dhillon, P. K. Ravikumar, and A. Tewari, “Nearest neighbor based greedy coordinate descent,” in Proceedings of NeurIPS, 2011, pp. 2160–2168.
-
-J. Nutini, M. Schmidt, I. Laradji, M. Friedlander, and H. Koepke, “Coordinate descent converges faster with the gauss-southwell rule than random selection,” in Proceedings of ICML, 2015, pp. 1632–1641.
-
-Y. T. Lee and A. Sidford, “Efficient accelerated coordinate descent methods and faster algorithms for solving linear systems,” in IEEE FOCS, 2013, pp. 147–156.
-
-Y. Nesterov, “Efficiency of coordinate descent methods on hugescale optimization problems,” SIAM Journal on Optimization, vol. 22, no. 2, pp. 341–362, 2012.
-
-A. Beck and M. Teboulle, “A fast iterative shrinkage-thresholding algorithm for linear inverse problems,” SIAM journal on imaging sciences, vol. 2, no. 1, pp. 183–202, 2009.
- 
-Q. Lin, Z. Lu, and L. Xiao, “An accelerated proximal coordinate gradient method,” in Proceedings of NeurIPS, 2014, pp. 3059–3067.
-
-H. Li and Z. Lin, “Accelerated proximal gradient methods for nonconvex programming,” in Proceedings of NeurIPS, 2015, pp. 379–387.
-
-S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein et al., “Distributed optimization and statistical learning via the alternating direction method of multipliers,” Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
+- Coordinate descent method for large-scale l2-loss linear support vector machines
+  - K.-W. Chang, C.-J. Hsieh, and C.-J. Lin, JMLR, vol. 9, no. Jul, pp. 1369–1398, 2008.
+- A dual coordinate descent method for large-scale linear svm
+  - C.-J. Hsieh, K.-W. Chang, C.-J. Lin, S. S. Keerthi, and S. Sundararajan, ICML, 2008, pp. 408–415.
+- Nearest neighbor based greedy coordinate descent
+  - I. S. Dhillon, P. K. Ravikumar, and A. Tewari, NeurIPS, 2011, pp. 2160–2168.
+- Coordinate descent converges faster with the gauss-southwell rule than random selection
+  - J. Nutini, M. Schmidt, I. Laradji, M. Friedlander, and H. Koepke, ICML, 2015, pp. 1632–1641.
+- Efficient accelerated coordinate descent methods and faster algorithms for solving linear systems
+  - Y. T. Lee and A. Sidford, in IEEE FOCS, 2013, pp. 147–156.
+- Efficiency of coordinate descent methods on hugescale optimization problems
+  - Y. Nesterov, SIAM Journal on Optimization, vol. 22, no. 2, pp. 341–362, 2012.
+- A fast iterative shrinkage-thresholding algorithm for linear inverse problem
+  - A. Beck and M. Teboulle, SIAM journal on imaging sciences, vol. 2, no. 1, pp. 183–202, 2009.
+- An accelerated proximal coordinate gradient method
+  - Q. Lin, Z. Lu, and L. Xiao, NeurIPS, 2014, pp. 3059–3067.
+- Accelerated proximal gradient methods for nonconvex programming
+  - H. Li and Z. Lin, NeurIPS, 2015, pp. 379–387.
+- Distributed optimization and statistical learning via the alternating direction method of multipliers
+  - S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein et al., Foundations and Trends R in Machine learning, vol. 3, no. 1, pp. 1–122, 2011.
 
 #### For Numerical Integration with MCMC
-M. Welling and Y. W. Teh, “Bayesian learning via stochastic gradient langevin dynamics,” in Proceedings of ICML, 2011, pp. 681–688.
-
-S. Ahn, A. Korattikara, and M. Welling, “Bayesian posterior sampling via stochastic gradient fisher scoring,” arXiv preprint arXiv:1206.6380, 2012.
-
-T. Chen, E. Fox, and C. Guestrin, “Stochastic gradient hamiltonian monte carlo,” in Proceedings of ICML, 2014, pp. 1683–1691.
-
-S. Patterson and Y. W. Teh, “Stochastic gradient riemannian langevin dynamics on the probability simplex,” in Proceedings of NeurIPS, 2013, pp. 3102–3110.
-
-Y.-A. Ma, T. Chen, and E. Fox, “A complete recipe for stochastic gradient mcmc,” in Proceedings of NeurIPS, 2015, pp. 2917–2925.
+- Bayesian learning via stochastic gradient langevin dynamics
+  - M. Welling and Y. W. Teh, ICML, 2011, pp. 681–688.
+- Bayesian posterior sampling via stochastic gradient fisher scoring
+  - S. Ahn, A. Korattikara, and M. Welling, arXiv preprint arXiv:1206.6380, 2012.
+- Stochastic gradient hamiltonian monte carlo
+  - T. Chen, E. Fox, and C. Guestrin, ICML, 2014, pp. 1683–1691.
+- Stochastic gradient riemannian langevin dynamics on the probability simplex
+  - S. Patterson and Y. W. Teh, NeurIPS, 2013, pp. 3102–3110.
+- A complete recipe for stochastic gradient mcmc
+  - Y.-A. Ma, T. Chen, and E. Fox, NeurIPS, 2015, pp. 2917–2925.
 
 ### Computation Parallelism.
 #### For Multi-core Machines
-W.-L. Chiang, M.-C. Lee, and C.-J. Lin, “Parallel dual coordinate descent method for large-scale linear classification in multi-core environments,” in Proceedings of SIGKDD, 2016, pp. 1485–1494.
-
-W.-S. Chin, Y. Zhuang, Y.-C. Juan, and C.-J. Lin, “A fast parallel stochastic gradient method for matrix factorization in shared memory systems,” ACM TIST, vol. 6, no. 1, pp. 1–24, 2015.
-
-S. Sonnenburg, S. Henschel, C. Widmer, J. Behr, A. Zien, F. d. Bona, A. Binder, C. Gehl, V. Franc et al., “The shogun machine learning toolbox,” JMLR, vol. 11, no. 6, pp. 1799–1802, 2010.
-
-B. Recht, C. Re, S. Wright, and F. Niu, “Hogwild: A lock-free approach to parallelizing stochastic gradient descent,” in Proceedings of NeurIPS, 2011, pp. 693–701.
-
-J. Bergstra, F. Bastien, O. Breuleux, et al., “Theano: Deep learning on gpus with python,” in Proceedings of NeurIPS, vol. 3. Citeseer, 2011, pp. 1–48.
-
-Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. B. Girshick, S. Guadarrama, and T. Darrell, “Caffe: Convolutional architecture for fast feature embedding,” in Proceedings of ACM MM, 2014, pp. 675–678.
-
-T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, “Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems,” arXiv preprint arXiv:1512.01274, 2015.
-
-A. Kyrola, G. Blelloch, and C. Guestrin, “Graphchi: Large-scale graph computation on just a {PC},” in OSDI, 2012, pp. 31–46.
-
-A. Roy, I. Mihailovic, and W. Zwaenepoel, “X-stream: Edgecentric graph processing using streaming partitions,” in Proceedings of SOSP, 2013, pp. 472–488.
-
-X. Zhu, W. Han, and W. Chen, “Gridgraph: Large-scale graph processing on a single machine using 2-level hierarchical partitioning,” in USENIX ATC, 2015, pp. 375–386.
-
-M. Rhu, N. Gimelshein, J. Clemons, A. Zulfiqar, and S. W. Keckler, “vdnn: Virtualized deep neural networks for scalable, memory-efficient neural network design,” in MICRO. IEEE,
-2016, pp. 1–13.
+- Parallel dual coordinate descent method for large-scale linear classification in multi-core environments
+  - W.-L. Chiang, M.-C. Lee, and C.-J. Lin, SIGKDD, 2016, pp. 1485–1494.
+- A fast parallel stochastic gradient method for matrix factorization in shared memory systems
+  - W.-S. Chin, Y. Zhuang, Y.-C. Juan, and C.-J. Lin, ACM TIST, vol. 6, no. 1, pp. 1–24, 2015.
+- The shogun machine learning toolbox
+  - S. Sonnenburg, S. Henschel, C. Widmer, J. Behr, A. Zien, F. d. Bona, A. Binder, C. Gehl, V. Franc et al., JMLR, vol. 11, no. 6, pp. 1799–1802, 2010.
+- Hogwild: A lock-free approach to parallelizing stochastic gradient descent
+  - B. Recht, C. Re, S. Wright, and F. Niu, NeurIPS, 2011, pp. 693–701.
+- Theano: Deep learning on gpus with python
+  - J. Bergstra, F. Bastien, O. Breuleux, et al., NeurIPS, vol. 3. Citeseer, 2011, pp. 1–48.
+- Caffe: Convolutional architecture for fast feature embedding
+  - Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. B. Girshick, S. Guadarrama, and T. Darrell, ACM MM, 2014, pp. 675–678.
+- Mxnet: A flexible and efficient machine learning library for heterogeneous distributed systems
+  - T. Chen, M. Li, Y. Li, M. Lin, N. Wang, M. Wang, T. Xiao, B. Xu, C. Zhang, and Z. Zhang, arXiv preprint arXiv:1512.01274, 2015.
+- Graphchi: Large-scale graph computation on just a PC
+  - A. Kyrola, G. Blelloch, and C. Guestrin, OSDI, 2012, pp. 31–46.
+- X-stream: Edgecentric graph processing using streaming partitions
+  - A. Roy, I. Mihailovic, and W. Zwaenepoel, SOSP, 2013, pp. 472–488.
+- Gridgraph: Large-scale graph processing on a single machine using 2-level hierarchical partitioning
+  - X. Zhu, W. Han, and W. Chen, ,” in USENIX ATC, 2015, pp. 375–386.
+- vdnn: Virtualized deep neural networks for scalable, memory-efficient neural network design
+  - M. Rhu, N. Gimelshein, J. Clemons, A. Zulfiqar, and S. W. Keckler, MICRO. IEEE, 2016, pp. 1–13.
 
 #### For Multi-machine Clusters
-J. Dean and S. Ghemawat, “Mapreduce: simplified data processing on large clusters,” Communications of the ACM, vol. 51, no. 1, pp. 107–113, 2008.
+- Mapreduce: simplified data processing on large clusters
+  - J. Dean and S. Ghemawat, Communications of the ACM, vol. 51, no. 1, pp. 107–113, 2008.
 
 J. Rosen, N. Polyzotis, V. Borkar, Y. Bu, M. J. Carey, M. Weimer, T. Condie, and R. Ramakrishnan, “Iterative mapreduce for large scale machine learning,” arXiv preprint arXiv:1303.3517, 2013.
 
